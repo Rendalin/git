@@ -5,7 +5,8 @@
 .relative-parent {
     position: relative;
     top: 20px;
-    right: 50px;
+    left: ;
+    : 50px;
 }
 
 .absolute-parent {
