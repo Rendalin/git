@@ -1,15 +1,16 @@
 .header {
     height: 40px;
+    width: 100%;
     background-color: darkturquoise;
-    position: static;
+    position: fixed;
 }
 
 .nav-list>li {
     color: white;
     height: 40px;
-    margin-left: 16px;
+    padding-left: 16px;
     display: inline-block;
-    line-height: 40px;
+    line-height: 16px;
 }
 
 .content {
