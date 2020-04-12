@@ -1,0 +1,12 @@
+.block {
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
