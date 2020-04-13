@@ -1,7 +1,8 @@
 .block {
-    display: flex;
-    height: 300px;
+    display: inline-flex;
+    min-height: 300px;
     flex-basis: 20%;
+    width: 20%;
 }
 
 .block_red {
