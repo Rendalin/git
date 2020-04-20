@@ -1,0 +1,16 @@
+.text {
+    margin: 16px;
+    display: inline-block;
+}
+
+.text:hover .tooltip {
+    display: block;
+}
+
+.tooltip {
+    background-color: grey;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    display: none;
+}
