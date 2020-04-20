@@ -10,7 +10,7 @@ header {
 .article {
     margin: 8px;
     width: 300px;
-    padding: 16px;
+    padding: 0px 16px;
     background-color: bisque;
     flex-shrink: 0;
     flex-grow: 1;
