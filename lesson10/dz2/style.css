@@ -5,7 +5,7 @@ header {
 
 .article {
     margin: 8px;
-    width: 200px;
+    width: 300px;
     padding: 16px;
     background-color: bisque;
     flex-shrink: 0;
