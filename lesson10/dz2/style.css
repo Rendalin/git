@@ -16,6 +16,7 @@ header {
     flex-grow: 1;
     box-sizing: border-box;
     display: block;
+    padding-bottom: 0px;
 }
 
 .articles-list {
