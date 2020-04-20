@@ -2,23 +2,23 @@
     box-sizing: border-box;
 }
 
-header {
+.articles-list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .article {
     margin: 8px;
-    width: 300px;
-    padding: 0px 16px;
-    background-color: bisque;
-    flex-shrink: 0;
-    flex-grow: 1;
-    box-sizing: border-box;
-    display: block;
+    border: 0;
+    padding: 16px;
+    flex: 1 100px;
+    background: bisque;
+    min-width: 300px;
+    align-items: self-start;
 }
 
-.articles-list {
-    display: flex;
-    flex-wrap: wrap;
+header {
+    text-align: center;
+    margin: auto;
 }
