@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.image-contiyner {
+.image-continer {
     margin-bottom: 50px;
 }
 
@@ -14,7 +14,7 @@
     border-radius: 20px;
 }
 
-.gellry {
+.gellery {
     display: flex;
 }
 
