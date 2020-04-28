@@ -50,4 +50,5 @@ body {
     height: 32px;
     border-radius: 4px;
     margin-top: 16px;
+    text-transform: uppercase;
 }
