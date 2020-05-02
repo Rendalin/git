@@ -1,0 +1,33 @@
+.button {
+    width: 200px;
+    height: 50px;
+    margin: 64px;
+    background-color: coral;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+body {
+    display: flex;
+}
+
+.image {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    fill: white;
+}
+
+.button:hover {
+    color: darkcyan;
+}
+
+.button:hover>.image {
+    fill: green;
+}
