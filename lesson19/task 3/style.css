@@ -27,10 +27,10 @@
     }
     
     @keyframes wik {
-        0% {
+        from {
             top: -100px;
         }
-        50% {
+        to {
             top: calc(50vh - 50px);
         }
     }
