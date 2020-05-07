@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.fancy-button {
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-image: repeating-linear-gradient(45deg, yellow, red);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: jump 0.5s 0.4s ease-in-out, rotate 0.5s ease-in-out, wik 1s 2s ease forwards;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wik {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(2000px);
+    }
+}
