@@ -14,8 +14,9 @@
     height: 100px;
     border-radius: 10px;
     display: flex;
-    margin: auto;
+    left: calc(50vw - 100px);
     justify-content: center;
+    align-items: center;
     animation: wik 2s;
     position: relative;
     animation-fill-mode: forwards;
