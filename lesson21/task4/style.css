@@ -13,7 +13,6 @@
             .main {
                 flex: 1 0 auto;
                 display: flex;
-                font-size: 1.25em;
             }
             
             body {
@@ -44,6 +43,7 @@
             .section {
                 width: 60%;
                 line-height: 1.75em;
+                font-size: 1.25em;
                 align-items: center;
                 padding: 0.5em;
             }
