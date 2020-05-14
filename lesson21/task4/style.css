@@ -73,6 +73,7 @@
             
             .nav-list {
                 padding: 0;
+                padding-right: 0.5em;
             }
             
             .nav-list-item {
