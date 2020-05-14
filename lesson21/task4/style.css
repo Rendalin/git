@@ -73,12 +73,12 @@
             
             .nav-list {
                 padding: 0;
-                padding-right: 0.5em;
             }
             
             .nav-list-item {
                 background-color: #808080;
                 color: #fff;
+                padding-right: 0.5em;
                 list-style-type: none;
                 height: 2em;
                 margin-bottom: 0.5em;
