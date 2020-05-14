@@ -43,9 +43,12 @@
                 padding: 0.5em;
             }
             
+            .units-list {
+                line-height: 1.75em;
+            }
+            
             .section {
                 width: 60%;
-                line-height: 1.75em;
                 font-size: 1.25em;
                 align-items: center;
                 padding: 0.5em;
