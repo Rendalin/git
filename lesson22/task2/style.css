@@ -1,4 +1,5 @@
     * {
+        box-sizing: border-box;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
@@ -28,17 +29,18 @@
         display: flex;
         background-color: #0ff;
         height: 200px;
+        flex-grow: 1;
     }
     
     @media screen and (min-width: 600px) {
-        section {
+        .products {
             display: flex;
             flex-grow: 2;
         }
     }
     
     @media screen and (min-width: 900px) {
-        main {
+        .content {
             display: flex;
         }
     }
