@@ -1,46 +1,87 @@
-    * {
-        box-sizing: border-box;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    margin: auto;
+    background-color: #faebd7;
+    border-radius: 4px;
+    padding: 8px;
+    text-transform: lowercase;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff7f50;
+    min-height: 200px;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: row;
+    background-color: #006400;
+    min-height: 200px;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    background-color: #0ff;
+    min-height: 200px;
+}
+
+@media screen and (min-width: 600px) {
+    .products {
+        display: flex;
+        flex-basis: 100%;
     }
-    
-    span {
-        margin: auto;
-        background-color: #faebd7;
-        border-radius: 4px;
-        padding: 8px;
-        text-transform: lowercase;
-    }
-    
     .navigation {
         display: flex;
+        flex-direction: row;
         background-color: #ff7f50;
-        height: 200px;
+        min-height: 200px;
         flex-grow: 1;
+        width: 50%;
     }
-    
     .products-list {
         display: flex;
+        flex-direction: row;
         background-color: #006400;
-        height: 200px;
+        min-height: 200px;
         flex-grow: 1;
+        width: 50%;
     }
-    
+}
+
+@media screen and (min-width: 900px) {
+    .content {
+        display: flex;
+        flex-grow: 2;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        background-color: #ff7f50;
+        min-height: 200px;
+        flex-grow: 1;
+        width: 50%;
+    }
+    .products-list {
+        display: flex;
+        flex-direction: row;
+        background-color: #006400;
+        min-height: 200px;
+        flex-grow: 1;
+        width: 50%;
+    }
     .news {
         display: flex;
+        flex-direction: row;
         background-color: #0ff;
-        height: 200px;
+        min-height: 200px;
         flex-grow: 1;
+        width: 50%;
     }
-    
-    @media screen and (min-width: 600px) {
-        .products {
-            display: flex;
-            flex-grow: 2;
-        }
-    }
-    
-    @media screen and (min-width: 900px) {
-        .content {
-            display: flex;
-        }
-    }
+}
