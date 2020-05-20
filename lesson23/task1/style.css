@@ -14,7 +14,6 @@
 }
 .nav-list__item {
   border-radius: 4px;
-  text-transform: lowercase;
   padding: 8px;
   margin-left: 8px;
   font-weight: 700;
