@@ -5,9 +5,9 @@
 @media screen and (orientation: portrait) {
   .container {
     flex-direction: column;
+    display: flex;
   }
 }
-
 .square {
   width: 100px;
   height: 100px;
@@ -30,7 +30,7 @@
   }
 }
 
-body {
+.container {
   display: flex;
   height: 100vh;
   justify-content: center;
