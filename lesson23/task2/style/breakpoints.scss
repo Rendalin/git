@@ -1,0 +1,32 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+@mixin exta-small {
+    @media screen and (max-width: $sm-1) {
+        @content
+    }
+}
+
+@mixin medi-up {
+    @media screen and (min-width: $sm) {
+        @content
+    }
+}
+
+@mixin media-md {
+    @media screen and (min-width: $md) {
+        @content
+    }
+}
+
+@mixin large-up {
+    @media screen and (min-width: $lg) {
+        @content
+    }
+}
+
+@mixin pointer-up {
+    @media screen and (orientation: portrait) {
+        @content
+    }
+}
