@@ -1,0 +1,105 @@
+.headline__button {
+  background-color: #3141C5;
+  border-radius: 2px;
+  color: #FFFFFF;
+  border: none;
+  width: 160px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+.headline__button_white {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: none;
+  width: 160px;
+  height: 48px;
+  border-radius: 2px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+
+.audience {
+  width: 1400px;
+  margin: auto;
+  background-color: rgba(0, 161, 198, 0.07);
+}
+.audience__button {
+  display: flex;
+  margin-top: 34px;
+  margin-bottom: 133px;
+  justify-content: center;
+}
+.audience__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.audience__link_subtitle {
+  margin: 0;
+  margin-top: 108px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #2B292D;
+}
+.audience__link_titel {
+  margin: 0;
+  margin-top: 24px;
+  width: 555px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #2B292D;
+}
+.audience__link_text {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #2B292D;
+  width: 555px;
+}
+.audience__line {
+  width: 1139px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 110px;
+}
+.audience__line_item {
+  margin: 0;
+  width: 262px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.audience__line_item-img {
+  padding-top: 22px;
+  display: flex;
+  margin: auto;
+}
+.audience__line_item-text {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #2B292D;
+}
+.audience__line_item:hover > .audience__line_item-text {
+  color: #FFFFFF;
+}
+.audience__line_item:hover {
+  background: #3141C5;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
