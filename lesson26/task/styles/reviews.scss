@@ -2,62 +2,63 @@
     margin: auto;
     width: 1120px;
     display: flex;
-    margin-top: 110px;
-    &__blok {
-        width: 540px;
-        height: 280px;
-        background: #FFFFFF;
-        position: relative;
-        &:last-child {
-            margin-left: 40px;
-        }
-        &_text {
-            width: 460px;
-            margin: 0;
-            margin-top: 40px;
-            font-size: 16px;
-            line-height: 30px;
-            color: #11223F;
-            margin-left: 40px;
-        }
-        &_img {
-            position: absolute;
-            top: 40px;
-            left: 440px;
-        }
-    }
+    margin-top: -82px;
 }
 
-.comments {
-    display: flex;
-    &__img {
-        margin-top: 40px;
+.review {
+    width: 540px;
+    height: 280px;
+    background: #FFFFFF;
+    position: relative;
+    box-shadow: 0px 20px 60px rgba(25, 104, 252, 0.1);
+    &:last-child {
         margin-left: 40px;
     }
-    &__name {
+    &__text {
+        width: 460px;
+        margin: 0;
+        margin-top: 40px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #11223F;
+        margin-left: 40px;
+    }
+    &__img {
+        position: absolute;
+        top: 40px;
+        left: 440px;
+    }
+    &__comments {
         display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-        &_titel {
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 30px;
-            color: #11223F;
-            width: 340px;
-            height: 30px;
-            margin: 0;
-            margin-top: 60px;
+        &_img {
+            margin-top: 40px;
+            margin-left: 40px;
         }
-        &_subtle {
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 30px;
-            color: #1967FA;
-            mix-blend-mode: normal;
-            opacity: 0.8;
-            width: 340px;
-            height: 30px;
-            margin: 0;
+        &_name {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            &-titel {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 30px;
+                color: #11223F;
+                width: 340px;
+                height: 30px;
+                margin: 0;
+                margin-top: 60px;
+            }
+            &-subtle {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 30px;
+                color: #1967FA;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                width: 340px;
+                height: 30px;
+                margin: 0;
+            }
         }
     }
 }

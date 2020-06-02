@@ -1,16 +1,16 @@
 .headline {
     margin: auto;
+    margin-top: 150px;
     height: 552px;
     width: 1120px;
     position: relative;
     &__img {
         position: absolute;
-        top: 200px;
+        top: 50px;
         left: 521px;
     }
     &__blok {
         margin: 0;
-        margin-top: 150px;
         &_titel {
             margin: 0;
             width: 600px;
