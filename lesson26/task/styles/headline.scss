@@ -9,44 +9,41 @@
         top: 50px;
         left: 521px;
     }
-    &__blok {
+    &__titel {
         margin: 0;
-        &_titel {
-            margin: 0;
-            width: 600px;
-            height: 120px;
-            font-weight: 600;
-            font-size: 40px;
-            line-height: 60px;
-            align-items: center;
-            letter-spacing: 1px;
-            color: #11223F;
-        }
-        &_description {
-            margin: 0;
-            margin-top: 20px;
-            width: 600px;
-            height: 80px;
-            font-size: 20px;
-            line-height: 40px;
-            align-items: center;
-            color: #11223F;
-        }
-        &_button {
-            margin-top: 40px;
-            width: 300px;
-            height: 50px;
-            background: #1968FC;
-            box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
-            border: none;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 20px;
-            align-items: center;
-            text-align: center;
-            text-transform: uppercase;
-            color: #FFFFFF;
-            text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
-        }
+        width: 600px;
+        height: 120px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        align-items: center;
+        letter-spacing: 1px;
+        color: #11223F;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 20px;
+        width: 600px;
+        height: 80px;
+        font-size: 20px;
+        line-height: 40px;
+        align-items: center;
+        color: #11223F;
+    }
+    &__upload-btn {
+        margin-top: 40px;
+        width: 300px;
+        height: 50px;
+        background: #1968FC;
+        box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
     }
 }
