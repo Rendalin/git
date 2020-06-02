@@ -1,22 +1,18 @@
-.page {
-    width: 1440px;
-    display: flex;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png')
-}
-
 .top-section {
     margin: auto;
     min-height: 100vh;
     display: flex;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png');
     flex-direction: column;
 }
 
-.header {
+.page-header {
     display: flex;
     width: 1120px;
     height: 50px;
+    margin: auto;
     margin-top: 30px;
-    &__button {
+    &__upload-btn {
         background: #1968FC;
         box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
         color: #ffffff;
@@ -48,10 +44,10 @@
     }
 }
 
-.navigation {
+.page-header__navigation {
     margin-left: 220px;
     display: flex;
-    &__item {
+    &_item {
         text-decoration: none;
         text-align: center;
         justify-content: center;
