@@ -6,7 +6,7 @@
         margin: 150px 160px 0 160px;
     }
     &__title {
-        width: 599px;
+        max-width: 480px;
         @include for-sm-up {
             margin: 0;
             font-weight: 700;
