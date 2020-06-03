@@ -45,11 +45,13 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 30px;
+        margin: 0;
     }
     &__job {
-        color: #1967FA;
+        // color: #1967FA;
         mix-blend-mode: normal;
         opacity: 0.8;
+        margin: 0;
     }
     &__comment {
         font-weight: normal;

@@ -25,7 +25,6 @@
   margin-right: 10px;
 }
 .page-header__title {
-  font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   color: #1968FC;
@@ -44,7 +43,6 @@
 }
 @media screen and (min-width: 1024px) {
   .page-header__navigation-item {
-    font-weight: 600;
     font-size: 14px;
     line-height: 20px;
     width: 120px;
@@ -73,7 +71,6 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
     display: flex;
     align-items: center;
     text-align: center;
@@ -225,11 +222,12 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
+  margin: 0;
 }
 .review__job {
-  color: #1967FA;
   mix-blend-mode: normal;
   opacity: 0.8;
+  margin: 0;
 }
 .review__comment {
   font-weight: normal;
