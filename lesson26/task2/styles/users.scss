@@ -53,6 +53,7 @@
         font-size: 20px;
         line-height: 40px;
         color: #1967FA;
+        margin: 0;
     }
     &__text {
         margin-top: 20px;
@@ -61,7 +62,7 @@
         line-height: 30px;
         /* or 187% */
         color: #11223F;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: auto;
+        margin-top: 20px;
     }
 }
