@@ -6,7 +6,7 @@ Console.log(goodNumber);
 Console.log(anotherNumber);
 
 const customerv = { name: 'John', age: 17 }
-let anotherCustomer = customerv;
+const anotherCustomer = customerv;
 age.anotherCustomer = 20;
 
 Console.log(customer.age);
