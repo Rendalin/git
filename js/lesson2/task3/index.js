@@ -1,13 +1,13 @@
 const goodNumber = 17;
 let anotherNumber = goodNumber;
-anotherNumber = 17;
+anotherNumber = 77;
 
 Console.log(goodNumber);
 Console.log(anotherNumber);
 
-const customerv = { name: 'John', age: 17 }
-const anotherCustomer = customerv;
-age.anotherCustomer = 20;
+const customer = { name: 'John', age: 17 };
+const anotherCustomer = customer;
+anotherCustomer.age = 20;
 
 Console.log(customer.age);
 Console.log(anotherCustomer.age);
