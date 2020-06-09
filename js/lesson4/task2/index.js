@@ -1,6 +1,6 @@
 const m = 1;
 const n = 10;
-result = 1;
+let result = 1;
 let i = m;
 
 while (i <= n) {
