@@ -5,4 +5,4 @@ function getEvenOdd(num) {
         return 'odd';
     }
 }
-getEvenOdd = 7;
+console.log(getEvenOdd(7));
