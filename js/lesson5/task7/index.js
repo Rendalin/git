@@ -1,11 +1,11 @@
 function increaser(a, index) {
-    for (let i = a; i > index; i++) {
-        if (i + index);
-        else(i > index);
+
+    if (a >= index) {
+        a += index;
     }
-    return i;
+    return a;
 }
 
 let a = 15;
 const index = 10;
-console.log(i);
+console.log(a);
