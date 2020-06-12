@@ -8,4 +8,3 @@ function increaser(a, index) {
 
 let a = 15;
 const index = 10;
-console.log(a);
