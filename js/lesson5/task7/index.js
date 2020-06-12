@@ -5,4 +5,5 @@ function increaser(a, index) {
     }
     return a;
 }
-increaser = (15, 10);
+// increaser = (15, 10);
+// c
