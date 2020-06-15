@@ -1,4 +1,4 @@
 function swap(arr) {
-    const [start, ...rest];
+    const [start, ...rest] = arr;
     return [...rest, start];
 }
