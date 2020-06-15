@@ -1,5 +1,5 @@
 function getSum(arr) {
-    sumNambers = 0;
+    let sumNambers = 0;
     if (!Array.isArray(arr)) {
         return null;
     }
