@@ -3,7 +3,7 @@ function cloneArr(arr) {
         return null;
     }
     if (Array.isArray(arr)) {
-        let newarr = []
+        let newarr = [];
     }
     for (let i = 0; i <= arr.length - 1; i++) {
         newarr.push(arr[i]);
