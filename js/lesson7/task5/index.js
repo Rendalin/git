@@ -1,1 +1,6 @@
-const squareArray = arr => arr.reduce(arr * arr);
+const squareArray = array => {
+    if (!Array.isArray(array)) {
+        return null;
+    }
+    return array.map(el => el * el);
+}
