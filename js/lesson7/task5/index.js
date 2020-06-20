@@ -1,0 +1,1 @@
+const squareArray = arr => arr.reduce(arr * arr);
