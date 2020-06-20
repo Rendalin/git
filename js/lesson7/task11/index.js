@@ -1,0 +1,1 @@
+const filterNames = (arr, text) => arr.filter(name => name.length && name.includes(text));
