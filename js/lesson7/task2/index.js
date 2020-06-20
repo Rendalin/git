@@ -1,0 +1,1 @@
+const sortDesc = arr => arr.sort((a, b) => d - a);
