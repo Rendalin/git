@@ -1,1 +1,1 @@
-const sortDesc = arr => arr.sort((a, b) => d - a);
+const sortDesc = arr.slace().sort((a, b) => d - a);
