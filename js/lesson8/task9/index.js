@@ -1,1 +1,1 @@
-const compareObjects = (obj1, obj2) => { return !obj1 == obj2 ? true : false };
+const compareObjects = (obj1, obj2) => { return obj1 !== obj2 ? true : false };
