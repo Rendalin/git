@@ -1,7 +1,12 @@
-const superRound = (num, n) => [
-    Math.floor(num * n) / n,
-    Math.round(num * n) / n,
-    Math.ceil(num * n) / n,
-    Math.trunc(num * n) / n,
-    Number(num.toFixed(n)),
-];
+const superRound = (num, n) => {
+    let numRound = Math.pow(10, n);
+
+    return [
+        Math.floor(num * numRound) / numRound,
+        Math.round(num * numRound) / numRound,
+        Math.ceil(num * numRound) / numRound,
+        Math.trunc(num * numRound) / numRound,
+        Number(number.toFixed(numRound))
+
+    ];
+};
