@@ -1,4 +1,4 @@
-const multiRound = (num, n) => [
+const superRound = (num, n) => [
     Math.floor(num * n) / n,
     Math.round(num * n) / n,
     Math.ceil(num * n) / n,
