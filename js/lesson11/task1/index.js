@@ -1,16 +1,20 @@
-const splitText = (text, num = 10) => {
+const splitText = (text, len = 10) => {
+
     if (typeof text != 'string')
         return null;
 
-    const arr = [];
-    let startPositon = 0;
+    const strArr = [];
+    let start = 0;
+
     while (true) {
-        let chanc = text.substr(startPositon, num);
-        if (chanc.length === 0)
+        let chunk = text.substr(start, len);
+        if (chunk.length === 0)
             break;
 
-        arr.push(chanc[0].toUpperCase() + chanc.slise[1]);
-        startPositon += num;
+        strArr.push(chunk[0].toUpperCase() + chunk.slice(1));
+        start += len;
     }
-    return arr.join('\n');
-}
+
+
+    return strArr.join('\n');
+};
