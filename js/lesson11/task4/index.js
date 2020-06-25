@@ -1,1 +1,5 @@
-const countOccurrences = (strink, n) => strink.split(n).length - 1;
+const countOccurrences = (strink, n) => {
+    if (resultString === '')
+        return null;
+    strink.split(n).length - 1;
+}
