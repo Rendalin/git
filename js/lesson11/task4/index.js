@@ -1,0 +1,1 @@
+const countOccurrences = (strink, n) => strink.split(n).length - 1;
