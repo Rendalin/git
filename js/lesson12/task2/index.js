@@ -1,0 +1,6 @@
+const reverseString = strink => {
+    if (strink === '') {
+        return null;
+    }
+    return strink.reverse();
+}
