@@ -1,6 +1,6 @@
 const reverseString = strink => {
-    if (strink === '') {
+    if (strink !== '') {
         return null;
     }
-    return strink.reverse();
+    return strink.split(' ').reverse();
 }
