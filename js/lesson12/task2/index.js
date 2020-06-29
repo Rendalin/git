@@ -1,11 +1,9 @@
 const reverseString = strink => {
-    if (strink !== '')
+    if (typeof strink !== 'string')
         return null;
 
-    return strink.split('').reverse().join(' ');
+    return strink.split('').reverse().join('');
 }
-
-
 
 
 
