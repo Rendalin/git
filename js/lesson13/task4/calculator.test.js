@@ -16,7 +16,7 @@ it('Работа *', () => {
     expect(result).toEqual('2 * 2 = 4');
 })
 it('Работа /', () => {
-    const result = calc('2/2');
+    const result = calc('2 / 2');
 
     expect(result).toEqual('2 / 2 = 1');
 })
