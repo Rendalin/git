@@ -24,7 +24,7 @@ export const transaction = {
     'operation time': 1584029990001
 };
 
-//lesson 8 hw2//
+//lesson 8 hw2
 
 export const user = {
     name: 'Tom',
