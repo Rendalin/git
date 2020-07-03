@@ -5,44 +5,44 @@ export function filterNames(arr, text) {
 }
 
 
-//lesson 7 hw8
+// //lesson 7 hw8
 
-export function arrAverage(arr) {
-    if (!Array.isArray(arr)) {
-        return null;
-    }
-    let averageElem = arr.reduce((acc, num) => {
-        return (acc + num);
-    });
-    return averageElem / arr.length;
-}
+// export function arrAverage(arr) {
+//     if (!Array.isArray(arr)) {
+//         return null;
+//     }
+//     let averageElem = arr.reduce((acc, num) => {
+//         return (acc + num);
+//     });
+//     return averageElem / arr.length;
+// }
 
 
-//lesson 8 hw1
+// //lesson 8 hw1
 
-export const transaction = {
-    currency: 'USD',
-    value: 170,
-    operation: 'sale',
-    agent: {
-        country: 'Ukraine',
-        company: 'NYSE'
-    },
-    'operation time': 1584029990001
-};
+// export const transaction = {
+//     currency: 'USD',
+//     value: 170,
+//     operation: 'sale',
+//     agent: {
+//         country: 'Ukraine',
+//         company: 'NYSE'
+//     },
+//     'operation time': 1584029990001
+// };
 
-//lesson 8 hw2
+// //lesson 8 hw2
 
-export const user = {
-    name: 'Tom',
-    age: 17,
-};
+// export const user = {
+//     name: 'Tom',
+//     age: 17,
+// };
 
-user.hobby = 'football';
-const anotherKey = 'married';
-user[anotherKey] = false;
-user['favourite music'] = 'rock';
-user['address'] = {};
-user.address['country'] = 'Ukraine';
-user.address['bulding'] = '17';
-console.log(user);
+// user.hobby = 'football';
+// const anotherKey = 'married';
+// user[anotherKey] = false;
+// user['favourite music'] = 'rock';
+// user['address'] = {};
+// user.address['country'] = 'Ukraine';
+// user.address['bulding'] = '17';
+// console.log(user);
