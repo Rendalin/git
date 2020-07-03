@@ -71,4 +71,4 @@ it('Значение country', () => {
     const result = user.address['country'];
 
     expect(result).toEqual('Ukraine');
-})
+});
