@@ -1,5 +1,5 @@
 const getTitleElement = () => {
-    const titleElement = document.querySelector('.titel');
+    const titleElement = document.querySelector('.title');
     console.dir(titleElement);
     return titleElement;
 };
